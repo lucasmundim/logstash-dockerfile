@@ -2,7 +2,7 @@ FROM ubuntu:15.10
 MAINTAINER Lucas Mundim "lucas.mundim@gmail.com"
 
 # Version
-ENV LOGSTASH_VERSION 1.5.5
+ENV LOGSTASH_VERSION 2.3.1
 
 ENV PATH="/opt/logstash/bin:$PATH"
 ENV DEBIAN_FRONTEND noninteractive

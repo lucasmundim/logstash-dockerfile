@@ -6,11 +6,11 @@
 
 #### Configtest
 
-`docker run --rm -it lucasmundim/logstash --configtest`
+`docker run --rm -it robsonsnjr/logstash --configtest`
 
 #### Use your own config
 
-`docker run --rm -it -v $(pwd)/logstash.conf:/logstash.conf lucasmundim/logstash`
+`docker run --rm -it -v $(pwd)/logstash.conf:/logstash.conf robsonsnjr/logstash`
 
 ## Build it locally
 

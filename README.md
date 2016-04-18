@@ -14,7 +14,7 @@
 
 ## Build it locally
 
-`docker build -t lucasmundim/logstash .`
+`docker build -t robsonsnjr/logstash .`
 
 ## Contributing
 
